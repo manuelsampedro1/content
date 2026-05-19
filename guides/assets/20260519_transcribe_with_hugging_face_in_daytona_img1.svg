@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Sapat Hugging Face transcription workflow in Daytona</title>
+  <desc id="desc">A workflow showing a Daytona sandbox running Sapat, sending audio to Hugging Face, and writing a transcript artifact.</desc>
+  <rect width="1200" height="675" fill="#f7f8fb"/>
+  <rect x="70" y="78" width="1060" height="520" rx="24" fill="#ffffff" stroke="#d8deea" stroke-width="2"/>
+  <text x="100" y="132" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#151923">Repeatable transcription workspace</text>
+  <text x="100" y="168" font-family="Inter, Arial, sans-serif" font-size="18" fill="#4a5568">Daytona keeps the tools, provider configuration, validation commands, and output files in one disposable sandbox.</text>
+
+  <rect x="110" y="235" width="210" height="142" rx="18" fill="#eaf2ff" stroke="#9fbdf2" stroke-width="2"/>
+  <text x="140" y="290" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#16213b">Daytona</text>
+  <text x="140" y="322" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">Create sandbox</text>
+  <text x="140" y="350" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">Clone Sapat branch</text>
+
+  <path d="M340 306H448" stroke="#667085" stroke-width="4" stroke-linecap="round"/>
+  <path d="M448 306L430 294V318Z" fill="#667085"/>
+
+  <rect x="470" y="215" width="260" height="182" rx="18" fill="#ecfdf3" stroke="#86d49b" stroke-width="2"/>
+  <text x="505" y="270" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#122c1c">Sapat CLI</text>
+  <text x="505" y="302" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">ffmpeg converts video</text>
+  <text x="505" y="330" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">--api huggingface</text>
+  <text x="505" y="358" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">Unit-tested request path</text>
+
+  <path d="M750 306H858" stroke="#667085" stroke-width="4" stroke-linecap="round"/>
+  <path d="M858 306L840 294V318Z" fill="#667085"/>
+
+  <rect x="880" y="235" width="210" height="142" rx="18" fill="#fff7ed" stroke="#f2b36d" stroke-width="2"/>
+  <text x="910" y="290" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#4b2600">Hugging Face</text>
+  <text x="910" y="322" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">ASR model endpoint</text>
+  <text x="910" y="350" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">Returns transcript text</text>
+
+  <path d="M985 400V475H595" stroke="#667085" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M595 475L613 463V487Z" fill="#667085"/>
+
+  <rect x="390" y="438" width="210" height="110" rx="18" fill="#f4f3ff" stroke="#b8b1f0" stroke-width="2"/>
+  <text x="425" y="488" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#26204f">Transcript</text>
+  <text x="425" y="520" font-family="Inter, Arial, sans-serif" font-size="16" fill="#344054">Same-name .txt file</text>
+
+  <rect x="100" y="520" width="220" height="44" rx="10" fill="#151923"/>
+  <text x="122" y="548" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">No secrets committed</text>
+  <rect x="640" y="520" width="230" height="44" rx="10" fill="#151923"/>
+  <text x="662" y="548" font-family="Inter, Arial, sans-serif" font-size="16" fill="#ffffff">Validation before provider use</text>
+</svg>
